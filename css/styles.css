@@ -1,0 +1,392 @@
+
+/* --------------------COMMON STYLES------------------ */
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.h2-font {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+
+/* --------------------HEADER STYLES---------------- */
+
+header {
+    width: 1280;
+}
+
+.header-logo {
+    line-height: 0;
+}
+
+.header-wrapper {
+    display: flex;
+    padding: 10px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.header-navigation {
+    margin-left: auto;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 28px;
+    margin-left: auto;
+}
+
+.header-nav-link {
+    color: #2c2c2c;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-nav-link:hover, .header-nav-link:focus {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #bbf330;
+}
+
+.header-btn {
+    margin-left: 30px;
+}
+
+/* ----------------------HERO-SECTION------------------- */
+
+.hero-section {
+    position: relative;
+    
+}
+
+.hero-container {
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hero-image-container {
+    position: absolute;
+    right: 16px;
+    top: 14px;
+    width: 608px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 26px solid #ffe550;
+}
+
+.arrow {
+    border-radius: 8px;
+    border: none;
+    background-color: #fefefe;
+    fill: #2c2c2c;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    line-height: 0;
+    cursor: pointer;
+    width: 48px;
+    height: 40px;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+}
+
+.hero-text-container {
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 608px;
+}
+
+.hero-container-text-group {
+    width: 511px;
+    position: absolute;
+    left: 16px;
+    top: 159px;
+}
+
+.hero-header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero-text {
+    margin-bottom: 40px;
+}
+
+.order-btn {
+    border-radius: 30px;
+    border: none;
+    padding: 6px 17px;
+    height: 32px;
+    background-color: #bbf330;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+
+/* ----------------------OFFERING-SECTION------------------- */
+
+.offering-section {
+    height: 824px;
+    background-image: url(../images/bg-desktop-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -130px;
+}
+
+.offering-container {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    gap: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offering-image-container {
+    margin-top: 170px;
+}
+
+.offering-text-container {
+    max-width: 573px;
+    margin-top: 260px;
+}
+
+
+
+.offering-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.offering-icon {
+    border-radius: 100%;
+    background-color: #fefefe;
+    padding: 8px;
+    line-height: 0;
+}
+
+.offering-header {
+    margin-bottom: 20px;
+}
+
+.offering-text {
+    margin-bottom: 40px;
+}
+
+.offering-h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.offering-list-item {
+    max-width: 253px;
+    margin-bottom: 32px;
+}
+
+.offering-btn {
+    border: 2px solid #7eb101;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    cursor: pointer;
+}
+
+
+/* ----------------------FAVORITES-SECTION------------------- */
+
+.favorites-header {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 103px;
+    margin-bottom: 20px;
+}
+
+.favorites-text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.favorites-list-item {
+    width: 395px;
+    height: 397px;
+    border: 16px solid #ffe550;
+    border-radius: 197px;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------------------CUSTOMERS-SECTION------------------- */
+
+.customers-section {
+    margin-top: 100px;
+    background-image: url(../images/bg-desktop-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 16px;
+    height: 647px;
+}
+
+.customers-header {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.customers-text {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 139px;
+    
+
+}
+
+.customers-list-item {
+    max-width: 501px;
+    background-color: #ffffff;
+    border-radius: 0 24px 24px 24px;
+    padding: 14px;
+}
+
+.customers-icons {
+    display: flex;
+    gap: 4px;
+}
+
+.customers-list-item-text {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+
+.customers-avatar {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    
+}
+
+.customers-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.customers-role {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.customers-avatar-name {
+    padding-right: 16px;
+    border-right: 1px solid #7eb101;
+}
+
+
+
+/* ----------------------CUSTOMERS-SECTION------------------- */
+
+.subscribe-section {
+    padding: 16px;
+}
+
+.subscribe-container {
+    max-width: 1247px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.subscribe-header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.subscribe-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
